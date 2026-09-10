@@ -1,0 +1,1078 @@
+{
+  "suite": "stable",
+  "packages": [
+    {
+      "name": "aircrack-ng",
+      "version": "1.7",
+      "size": "8.8 MB",
+      "depends": [
+        "openssl"
+      ],
+      "description": "WiFi network security auditing toolkit"
+    },
+    {
+      "name": "android-tools",
+      "version": "35.0.1",
+      "size": "8.4 MB",
+      "depends": [],
+      "description": "ADB and fastboot — Android Debug Bridge tools"
+    },
+    {
+      "name": "apache2",
+      "version": "2.4.62",
+      "size": "4.8 MB",
+      "depends": [
+        "openssl",
+        "pcre"
+      ],
+      "description": "Apache HTTP Server"
+    },
+    {
+      "name": "aria2",
+      "version": "2.34.0",
+      "size": "5.6 MB",
+      "depends": [
+        "zlib"
+      ],
+      "description": "Download utility with multi-connection support"
+    },
+    {
+      "name": "ascii-art",
+      "version": "3.4.5",
+      "size": "2.8 MB",
+      "depends": [
+        "python"
+      ],
+      "description": "Convert images to ASCII art"
+    },
+    {
+      "name": "bat",
+      "version": "0.24.0",
+      "size": "4.9 MB",
+      "depends": [],
+      "description": "cat clone with syntax highlighting and line numbers"
+    },
+    {
+      "name": "bc",
+      "version": "1.07.1",
+      "size": "256 KB",
+      "depends": [],
+      "description": "Arbitrary precision calculator language"
+    },
+    {
+      "name": "bun",
+      "version": "1.1.17",
+      "size": "56 MB",
+      "depends": [],
+      "description": "Fast all-in-one JavaScript runtime"
+    },
+    {
+      "name": "busybox",
+      "version": "1.36.1",
+      "size": "1.8 MB",
+      "depends": [],
+      "description": "Swiss army knife of embedded Linux"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8",
+      "size": "200 KB",
+      "depends": [],
+      "description": "High-quality data compression program"
+    },
+    {
+      "name": "clang",
+      "version": "18.1.6",
+      "size": "180 MB",
+      "depends": [
+        "llvm"
+      ],
+      "description": "C/C++ language frontend for LLVM"
+    },
+    {
+      "name": "cmake",
+      "version": "3.29.5",
+      "size": "12 MB",
+      "depends": [],
+      "description": "Cross-platform build system generator"
+    },
+    {
+      "name": "cmatrix",
+      "version": "2.0",
+      "size": "368 KB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Matrix-style falling code in the terminal"
+    },
+    {
+      "name": "cowsay",
+      "version": "3.04",
+      "size": "64 KB",
+      "depends": [
+        "bash"
+      ],
+      "description": "Configurable talking cow"
+    },
+    {
+      "name": "curl",
+      "version": "8.7.1",
+      "size": "4.6 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "Transfer data with URLs — HTTP(S)/FTP client"
+    },
+    {
+      "name": "deno",
+      "version": "1.44.4",
+      "size": "88 MB",
+      "depends": [],
+      "description": "Secure JavaScript/TypeScript runtime"
+    },
+    {
+      "name": "dns-utils",
+      "version": "9.18",
+      "size": "2.4 MB",
+      "depends": [],
+      "description": "DNS lookup tools: dig, nslookup, host"
+    },
+    {
+      "name": "duf",
+      "version": "0.8.1",
+      "size": "2.1 MB",
+      "depends": [],
+      "description": "Better df — disk usage/free utility"
+    },
+    {
+      "name": "dust",
+      "version": "1.0.0",
+      "size": "2.4 MB",
+      "depends": [],
+      "description": "More intuitive version of du"
+    },
+    {
+      "name": "emacs",
+      "version": "29.4",
+      "size": "94 MB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "GNU Emacs — extensible text editor"
+    },
+    {
+      "name": "exa",
+      "version": "0.10.1",
+      "size": "2.8 MB",
+      "depends": [],
+      "description": "Modern replacement for ls"
+    },
+    {
+      "name": "fastfetch",
+      "version": "2.12.0",
+      "size": "4.8 MB",
+      "depends": [],
+      "description": "Fast neofetch-like system information tool"
+    },
+    {
+      "name": "fd",
+      "version": "9.0.0",
+      "size": "2.6 MB",
+      "depends": [],
+      "description": "Simple, fast alternative to find"
+    },
+    {
+      "name": "ffmpeg",
+      "version": "6.1.1",
+      "size": "58 MB",
+      "depends": [
+        "openssl",
+        "x264"
+      ],
+      "description": "Record, convert and stream audio/video"
+    },
+    {
+      "name": "figlet",
+      "version": "25.6.3",
+      "size": "1.2 MB",
+      "depends": [],
+      "description": "Make large letters out of ASCII art"
+    },
+    {
+      "name": "fish",
+      "version": "3.7.1",
+      "size": "6.0 MB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "User-friendly command-line shell"
+    },
+    {
+      "name": "fortune",
+      "version": "0.2",
+      "size": "1.2 MB",
+      "depends": [],
+      "description": "Print a random fortune cookie"
+    },
+    {
+      "name": "fzf",
+      "version": "0.52.1",
+      "size": "2.2 MB",
+      "depends": [
+        "bash"
+      ],
+      "description": "Command-line fuzzy finder"
+    },
+    {
+      "name": "gcc",
+      "version": "13.3.0",
+      "size": "86 MB",
+      "depends": [
+        "binutils",
+        "mpfr"
+      ],
+      "description": "GNU C compiler"
+    },
+    {
+      "name": "gdb",
+      "version": "14.2",
+      "size": "11 MB",
+      "depends": [
+        "ncurses",
+        "python"
+      ],
+      "description": "GNU debugger"
+    },
+    {
+      "name": "gh",
+      "version": "2.52.0",
+      "size": "14 MB",
+      "depends": [
+        "git"
+      ],
+      "description": "GitHub CLI — interact with GitHub from terminal"
+    },
+    {
+      "name": "git",
+      "version": "2.45.2",
+      "size": "24 MB",
+      "depends": [
+        "curl",
+        "openssl",
+        "zlib"
+      ],
+      "description": "Distributed version control system"
+    },
+    {
+      "name": "golang",
+      "version": "1.22.4",
+      "size": "93 MB",
+      "depends": [],
+      "description": "Open-source programming language by Google"
+    },
+    {
+      "name": "gpg",
+      "version": "2.4.5",
+      "size": "6.4 MB",
+      "depends": [
+        "libgcrypt"
+      ],
+      "description": "GNU Privacy Guard — encryption and signing"
+    },
+    {
+      "name": "gzip",
+      "version": "1.13",
+      "size": "720 KB",
+      "depends": [],
+      "description": "GNU compression utility"
+    },
+    {
+      "name": "hashcat",
+      "version": "6.2.6",
+      "size": "12 MB",
+      "depends": [],
+      "description": "Advanced CPU/GPU password cracking utility"
+    },
+    {
+      "name": "htop",
+      "version": "3.3.0",
+      "size": "1.4 MB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Interactive process viewer with CPU/mem gauges"
+    },
+    {
+      "name": "httpie",
+      "version": "3.2.2",
+      "size": "3.2 MB",
+      "depends": [
+        "python"
+      ],
+      "description": "User-friendly HTTP client"
+    },
+    {
+      "name": "hydra",
+      "version": "9.5",
+      "size": "2.2 MB",
+      "depends": [
+        "openssl"
+      ],
+      "description": "Fast network login password cracker"
+    },
+    {
+      "name": "iftop",
+      "version": "1.0pre4",
+      "size": "520 KB",
+      "depends": [
+        "pcap",
+        "ncurses"
+      ],
+      "description": "Display bandwidth usage by host"
+    },
+    {
+      "name": "imagemagick",
+      "version": "7.1.1.30",
+      "size": "18 MB",
+      "depends": [
+        "freetype",
+        "jpeg"
+      ],
+      "description": "Image manipulation toolkit"
+    },
+    {
+      "name": "ipcalc",
+      "version": "1.0",
+      "size": "96 KB",
+      "depends": [],
+      "description": "Perform simple IP address calculations"
+    },
+    {
+      "name": "iperf3",
+      "version": "3.16",
+      "size": "1.1 MB",
+      "depends": [],
+      "description": "Network bandwidth measurement tool"
+    },
+    {
+      "name": "java",
+      "version": "17",
+      "size": "48 MB",
+      "depends": [],
+      "description": "OpenJDK 17 — Java development kit"
+    },
+    {
+      "name": "john",
+      "version": "1.9.0",
+      "size": "18 MB",
+      "depends": [
+        "openssl"
+      ],
+      "description": "John the Ripper — password security auditing tool"
+    },
+    {
+      "name": "jq",
+      "version": "1.7.1",
+      "size": "1.1 MB",
+      "depends": [
+        "oniguruma"
+      ],
+      "description": "Command-line JSON processor"
+    },
+    {
+      "name": "kotlin",
+      "version": "2.0.0",
+      "size": "44 MB",
+      "depends": [
+        "java"
+      ],
+      "description": "Modern JVM/Android/multiplatform language"
+    },
+    {
+      "name": "lazygit",
+      "version": "0.43.1",
+      "size": "8.6 MB",
+      "depends": [],
+      "description": "Simple terminal UI for git commands"
+    },
+    {
+      "name": "links2",
+      "version": "2.29",
+      "size": "3.5 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "Text-based web browser"
+    },
+    {
+      "name": "lldb",
+      "version": "18.1.6",
+      "size": "28 MB",
+      "depends": [
+        "clang"
+      ],
+      "description": "LLVM debugger"
+    },
+    {
+      "name": "lolcat",
+      "version": "100.0.1",
+      "size": "88 KB",
+      "depends": [
+        "ruby"
+      ],
+      "description": "Rainbow text in your terminal"
+    },
+    {
+      "name": "lsd",
+      "version": "1.1.2",
+      "size": "3.2 MB",
+      "depends": [],
+      "description": "LSDeluxe — next gen ls command"
+    },
+    {
+      "name": "lua",
+      "version": "5.4.6",
+      "size": "540 KB",
+      "depends": [],
+      "description": "Lightweight, embeddable scripting language"
+    },
+    {
+      "name": "lynx",
+      "version": "2.9.2",
+      "size": "3.6 MB",
+      "depends": [
+        "openssl",
+        "ncurses"
+      ],
+      "description": "Classic text-mode web browser"
+    },
+    {
+      "name": "make",
+      "version": "4.4.1",
+      "size": "1.2 MB",
+      "depends": [],
+      "description": "GNU make — build tool"
+    },
+    {
+      "name": "man",
+      "version": "2.13.0",
+      "size": "1.1 MB",
+      "depends": [],
+      "description": "Display manual pages"
+    },
+    {
+      "name": "mc",
+      "version": "4.8.31",
+      "size": "9.4 MB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Midnight Commander — visual file manager"
+    },
+    {
+      "name": "metasploit",
+      "version": "6.4.19",
+      "size": "280 MB",
+      "depends": [
+        "ruby",
+        "postgresql"
+      ],
+      "description": "Penetration testing framework"
+    },
+    {
+      "name": "micro",
+      "version": "2.0.14",
+      "size": "5.1 MB",
+      "depends": [],
+      "description": "Modern and intuitive terminal text editor"
+    },
+    {
+      "name": "mysql",
+      "version": "8.4.0",
+      "size": "44 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "MySQL/MariaDB database client"
+    },
+    {
+      "name": "nano",
+      "version": "7.2",
+      "size": "640 KB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Small, friendly terminal text editor"
+    },
+    {
+      "name": "ncrack",
+      "version": "0.7",
+      "size": "4.8 MB",
+      "depends": [
+        "openssl"
+      ],
+      "description": "High-speed network authentication cracker"
+    },
+    {
+      "name": "ncrack",
+      "version": "0.7",
+      "size": "4.8 MB",
+      "depends": [
+        "openssl"
+      ],
+      "description": "High-speed network authentication cracker"
+    },
+    {
+      "name": "neofetch",
+      "version": "7.1.0",
+      "size": "1.5 MB",
+      "depends": [
+        "bash"
+      ],
+      "description": "Pretty system info script"
+    },
+    {
+      "name": "neovim",
+      "version": "0.10.1",
+      "size": "8.7 MB",
+      "depends": [
+        "lua",
+        "libuv"
+      ],
+      "description": "Hyperextensible Vim-based text editor"
+    },
+    {
+      "name": "netcat",
+      "version": "1.10",
+      "size": "96 KB",
+      "depends": [],
+      "description": "Read and write data across network connections"
+    },
+    {
+      "name": "nginx",
+      "version": "1.26.1",
+      "size": "1.9 MB",
+      "depends": [
+        "openssl",
+        "pcre"
+      ],
+      "description": "High-performance HTTP server"
+    },
+    {
+      "name": "nikto",
+      "version": "2.1.6",
+      "size": "2.4 MB",
+      "depends": [
+        "perl"
+      ],
+      "description": "Web server scanner"
+    },
+    {
+      "name": "ninja",
+      "version": "1.12.1",
+      "size": "488 KB",
+      "depends": [],
+      "description": "Small build system with a focus on speed"
+    },
+    {
+      "name": "nload",
+      "version": "0.7.4",
+      "size": "220 KB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Console network bandwidth monitor"
+    },
+    {
+      "name": "nmap",
+      "version": "7.94",
+      "size": "12 MB",
+      "depends": [
+        "openssl",
+        "pcap"
+      ],
+      "description": "Network discovery and security scanning"
+    },
+    {
+      "name": "nnn",
+      "version": "4.9",
+      "size": "1.0 MB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Tiny, blazingly fast, feature-packed file manager"
+    },
+    {
+      "name": "nodejs",
+      "version": "20.14.0",
+      "size": "42 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "JavaScript runtime built on V8"
+    },
+    {
+      "name": "nodejs-lts",
+      "version": "22.3.0",
+      "size": "44 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "Node.js LTS release"
+    },
+    {
+      "name": "openssh",
+      "version": "9.7p1",
+      "size": "7.9 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "ssh/scp/sftp client and server"
+    },
+    {
+      "name": "openssl",
+      "version": "3.3.1",
+      "size": "12 MB",
+      "depends": [],
+      "description": "TLS/SSL toolkit and certificate management"
+    },
+    {
+      "name": "p7zip",
+      "version": "17.05",
+      "size": "6.8 MB",
+      "depends": [],
+      "description": "7-zip command-line tool"
+    },
+    {
+      "name": "pass",
+      "version": "1.7.4",
+      "size": "144 KB",
+      "depends": [
+        "gpg",
+        "git"
+      ],
+      "description": "Simple password manager using GPG"
+    },
+    {
+      "name": "perl",
+      "version": "5.38.2",
+      "size": "14 MB",
+      "depends": [
+        "gdbm"
+      ],
+      "description": "Practical Extraction and Report Language"
+    },
+    {
+      "name": "php",
+      "version": "8.3.8",
+      "size": "26 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "Popular scripting language for the web"
+    },
+    {
+      "name": "postgresql",
+      "version": "16.3",
+      "size": "28 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "Powerful open source relational database"
+    },
+    {
+      "name": "procs",
+      "version": "0.14.5",
+      "size": "3.6 MB",
+      "depends": [],
+      "description": "Modern replacement for ps"
+    },
+    {
+      "name": "proot",
+      "version": "5.4.0",
+      "size": "680 KB",
+      "depends": [],
+      "description": "Run programs in an isolated filesystem (chroot-like)"
+    },
+    {
+      "name": "proot-distro",
+      "version": "4.6.0",
+      "size": "1.2 MB",
+      "depends": [
+        "proot"
+      ],
+      "description": "Install full Linux distros in Termux (Ubuntu, Debian, Alpine)"
+    },
+    {
+      "name": "proxychains",
+      "version": "4.14",
+      "size": "456 KB",
+      "depends": [],
+      "description": "Force any TCP connection through a proxy"
+    },
+    {
+      "name": "python",
+      "version": "3.12.3",
+      "size": "19 MB",
+      "depends": [
+        "openssl",
+        "zlib",
+        "bzip2"
+      ],
+      "description": "High-level programming language"
+    },
+    {
+      "name": "python-pip",
+      "version": "24.0",
+      "size": "4.2 MB",
+      "depends": [
+        "python"
+      ],
+      "description": "Installs Python packages from PyPI"
+    },
+    {
+      "name": "ranger",
+      "version": "1.9.4",
+      "size": "2.1 MB",
+      "depends": [
+        "python"
+      ],
+      "description": "Console file manager with vi key bindings"
+    },
+    {
+      "name": "redis",
+      "version": "7.2.5",
+      "size": "8.1 MB",
+      "depends": [
+        "openssl"
+      ],
+      "description": "In-memory key/value datastore"
+    },
+    {
+      "name": "ripgrep",
+      "version": "14.1.0",
+      "size": "3.4 MB",
+      "depends": [],
+      "description": "Recursively search directories for a regex pattern"
+    },
+    {
+      "name": "rsync",
+      "version": "3.3.0",
+      "size": "2.4 MB",
+      "depends": [
+        "zlib"
+      ],
+      "description": "Fast, versatile file copying/sync tool"
+    },
+    {
+      "name": "ruby",
+      "version": "3.3.3",
+      "size": "12 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "Dynamic, object-oriented scripting language"
+    },
+    {
+      "name": "rust",
+      "version": "1.78.0",
+      "size": "210 MB",
+      "depends": [
+        "clang"
+      ],
+      "description": "Systems programming language (safe, fast, concurrent)"
+    },
+    {
+      "name": "screen",
+      "version": "4.9.1",
+      "size": "880 KB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Full-screen window manager for the terminal"
+    },
+    {
+      "name": "sl",
+      "version": "5.02",
+      "size": "12 KB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Steam locomotive running through the terminal"
+    },
+    {
+      "name": "socat",
+      "version": "1.8.0.0",
+      "size": "2.1 MB",
+      "depends": [],
+      "description": "Multipurpose relay for bidirectional data transfer"
+    },
+    {
+      "name": "sqlite",
+      "version": "3.46.0",
+      "size": "2.8 MB",
+      "depends": [],
+      "description": "Lightweight SQL database engine CLI"
+    },
+    {
+      "name": "sqlmap",
+      "version": "1.8.5",
+      "size": "9.6 MB",
+      "depends": [
+        "python"
+      ],
+      "description": "Automatic SQL injection and database takeover"
+    },
+    {
+      "name": "sshfs",
+      "version": "3.7.3",
+      "size": "520 KB",
+      "depends": [
+        "fuse",
+        "openssh"
+      ],
+      "description": "Mount remote directories over SSH"
+    },
+    {
+      "name": "starship",
+      "version": "1.19.0",
+      "size": "5.8 MB",
+      "depends": [],
+      "description": "Minimal, blazing-fast, customizable prompt"
+    },
+    {
+      "name": "strace",
+      "version": "6.9",
+      "size": "2.8 MB",
+      "depends": [],
+      "description": "System call tracer for debugging"
+    },
+    {
+      "name": "subversion",
+      "version": "1.14.3",
+      "size": "12 MB",
+      "depends": [
+        "openssl",
+        "zlib"
+      ],
+      "description": "Apache Subversion version control"
+    },
+    {
+      "name": "swift",
+      "version": "5.10.1",
+      "size": "240 MB",
+      "depends": [
+        "clang"
+      ],
+      "description": "Apple Swift language compiler (aarch64 only)"
+    },
+    {
+      "name": "tar",
+      "version": "1.35",
+      "size": "2.0 MB",
+      "depends": [],
+      "description": "Archive files and directories"
+    },
+    {
+      "name": "taskwarrior",
+      "version": "3.0.2",
+      "size": "2.5 MB",
+      "depends": [
+        "gnutls"
+      ],
+      "description": "Command-line TODO list manager"
+    },
+    {
+      "name": "tcpdump",
+      "version": "4.99.5",
+      "size": "3.6 MB",
+      "depends": [
+        "pcap"
+      ],
+      "description": "Command-line packet analyzer"
+    },
+    {
+      "name": "termux-api",
+      "version": "0.49.0",
+      "size": "2.1 MB",
+      "depends": [],
+      "description": "Termux API addon — access Android device features"
+    },
+    {
+      "name": "termux-tools",
+      "version": "1.42.1",
+      "size": "280 KB",
+      "depends": [],
+      "description": "Termux essential tools and helper scripts"
+    },
+    {
+      "name": "thefuck",
+      "version": "3.32",
+      "size": "1.8 MB",
+      "depends": [
+        "python"
+      ],
+      "description": "Corrects your previous console command"
+    },
+    {
+      "name": "tldr",
+      "version": "3.3.0",
+      "size": "4.4 MB",
+      "depends": [
+        "bash"
+      ],
+      "description": "Simplified community-driven man pages"
+    },
+    {
+      "name": "tmux",
+      "version": "3.4",
+      "size": "2.1 MB",
+      "depends": [
+        "libevent",
+        "ncurses"
+      ],
+      "description": "Terminal multiplexer — split screens, persist sessions"
+    },
+    {
+      "name": "toilet",
+      "version": "0.3",
+      "size": "512 KB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Display large colourful characters in terminal"
+    },
+    {
+      "name": "tree",
+      "version": "2.1.1",
+      "size": "96 KB",
+      "depends": [],
+      "description": "List directories as a tree with colors"
+    },
+    {
+      "name": "tsu",
+      "version": "2.8.2",
+      "size": "48 KB",
+      "depends": [],
+      "description": "Root shell via su for Termux — requires rooted device"
+    },
+    {
+      "name": "unzip",
+      "version": "6.0",
+      "size": "480 KB",
+      "depends": [],
+      "description": "Unzip file extraction tool"
+    },
+    {
+      "name": "valgrind",
+      "version": "3.23.0",
+      "size": "46 MB",
+      "depends": [],
+      "description": "Memory error and profiling tool"
+    },
+    {
+      "name": "vim",
+      "version": "9.1.0",
+      "size": "3.2 MB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Vi IMproved — highly configurable text editor"
+    },
+    {
+      "name": "w3m",
+      "version": "0.5.3",
+      "size": "1.6 MB",
+      "depends": [
+        "zlib",
+        "gc"
+      ],
+      "description": "Text-based web browser and pager"
+    },
+    {
+      "name": "wget",
+      "version": "1.21.4",
+      "size": "1.8 MB",
+      "depends": [
+        "openssl"
+      ],
+      "description": "Retrieve files from the web"
+    },
+    {
+      "name": "whois",
+      "version": "5.5.23",
+      "size": "288 KB",
+      "depends": [],
+      "description": "Query WHOIS/NICNAME servers"
+    },
+    {
+      "name": "wireshark-tiny",
+      "version": "4.2.5",
+      "size": "18 MB",
+      "depends": [
+        "pcap"
+      ],
+      "description": "Network protocol analyser (CLI/tshark only)"
+    },
+    {
+      "name": "wtf",
+      "version": "0.43.0",
+      "size": "12 MB",
+      "depends": [],
+      "description": "Personal information dashboard for the terminal"
+    },
+    {
+      "name": "xz-utils",
+      "version": "5.6.2",
+      "size": "1.4 MB",
+      "depends": [],
+      "description": "XZ-format compression utilities"
+    },
+    {
+      "name": "yq",
+      "version": "4.44.2",
+      "size": "8.2 MB",
+      "depends": [],
+      "description": "YAML/JSON/XML/CSV processor (like jq)"
+    },
+    {
+      "name": "zip",
+      "version": "3.0",
+      "size": "760 KB",
+      "depends": [],
+      "description": "Zip file compression tool"
+    },
+    {
+      "name": "zoxide",
+      "version": "0.9.4",
+      "size": "2.1 MB",
+      "depends": [],
+      "description": "Smarter cd command that learns your habits"
+    },
+    {
+      "name": "zsh",
+      "version": "5.9",
+      "size": "8.2 MB",
+      "depends": [
+        "ncurses"
+      ],
+      "description": "Interactive login shell with powerful features"
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.6",
+      "size": "1.6 MB",
+      "depends": [],
+      "description": "Zstandard fast real-time compression algorithm"
+    }
+  ]
+}
