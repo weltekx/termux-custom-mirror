@@ -1,4 +1,4 @@
-name: Generate & commit APT mirror index
+name: Build & sign APT mirror
 
 on:
   push:
@@ -9,7 +9,8 @@ permissions:
   contents: write
 
 # GitHub Pages serves this repository directly from the main branch (root),
-# so the generated dists/ tree is committed back to main by this job.
+# so the signed dists/ tree (and the real .deb pool) is committed back to
+# main by this job.
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -21,17 +22,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Generate Packages indexes
-        run: python3 scripts/generate_index.py
+      - name: Import signing key
+        env:
+          MIRROR_GPG_KEY_B64: ${{ secrets.MIRROR_GPG_KEY_B64 }}
+        run: |
+          if [ -z "$MIRROR_GPG_KEY_B64" ]; then
+            echo "error: MIRROR_GPG_KEY_B64 secret is not set — cannot sign Release/InRelease"
+            exit 1
+          fi
+          mkdir -p "$HOME/.gnupg" && chmod 700 "$HOME/.gnupg"
+          echo "$MIRROR_GPG_KEY_B64" | base64 -d > "$HOME/.gnupg/key.asc"
+          gpg --batch --import "$HOME/.gnupg/key.asc"
 
-      - name: Commit generated dists to main
+      - name: Build & sign mirror
+        run: |
+          export GNUPGHOME="$HOME/.gnupg"
+          python3 scripts/build_mirror.py --root .
+
+      - name: Commit dists to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dists
+          git add dists pool key curated catalog.json scripts/build_mirror.py
           if git diff --cached --quiet; then
-            echo "dists unchanged — nothing to commit"
+            echo "mirror unchanged — nothing to commit"
           else
-            git commit -q -m "Reindex mirror from catalog.json"
+            git commit -q -m "Rebuild signed APT mirror"
             git push
           fi

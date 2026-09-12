@@ -1,3 +1,846 @@
+Package: bc
+Version: 1.08.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Size: 75696
+SHA256: 76a69e38125c1fe06e21f39ebc9592b21a768fd33bce778ddade1a0f27f94b5d
+Filename: pool/aarch64/bc_1.08.2-1_aarch64.deb
+Depends: readline, flex
+Homepage: https://www.gnu.org/software/bc/
+Description: Arbitrary precision numeric processing language
+
+Package: brotli
+Version: 1.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1052
+Size: 340592
+SHA256: db1502601d40fb44e6085ad8bfd9311a8b472e98db831ceec9d404c5708bb52c
+Filename: pool/aarch64/brotli_1.2.0_aarch64.deb
+Depends:
+Homepage: https://github.com/google/brotli
+Description: lossless compression algorithm and format (command line utility)
+
+Package: cmatrix
+Version: 2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Size: 7636
+SHA256: ccd9a51d6806aad2ae454888222cac8d218c6a83b4a9e11054d14d5d84de5313
+Filename: pool/aarch64/cmatrix_2.0-1_aarch64.deb
+Depends: ncurses
+Homepage: https://github.com/abishekvashok/cmatrix
+Description: Command producing a Matrix-style animation
+
+Package: cowsay
+Version: 3.8.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 276
+Size: 15084
+SHA256: 9527fe6bf96e70b415332b372ca8b71d00903a201346498a50b9a68904c1fc79
+Filename: pool/aarch64/cowsay_3.8.4_all.deb
+Depends: perl
+Homepage: https://cowsay.diamonds/
+Description: Program which generates ASCII pictures of a cow with a message
+
+Package: figlet
+Version: 2.2.5-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 832
+Size: 89760
+SHA256: e7c0349cc49200edaa56a60fd5e268b52e601af171bb4266769d04d7f20851a7
+Filename: pool/aarch64/figlet_2.2.5-3_aarch64.deb
+Depends:
+Homepage: http://www.figlet.org/
+Description: Program for making large letters out of ordinary text
+
+Package: flex
+Version: 2.6.4-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 908
+Size: 199932
+SHA256: 066c3e0582f0cd6239e25219682f7f079e6cfa4f3eac91cd7453eb122a1e4760
+Filename: pool/aarch64/flex_2.6.4-5_aarch64.deb
+Depends: m4
+Homepage: https://github.com/westes/flex
+Description: Fast lexical analyser generator
+
+Package: fontconfig
+Version: 2.18.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 888
+Size: 140288
+SHA256: 7f8b70dd7ca85b1e7cbb14a11e9e6bd4ce3189ab985aa7af51145484d85f2c61
+Filename: pool/aarch64/fontconfig_2.18.3_aarch64.deb
+Depends: freetype, libexpat, ttf-dejavu
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Description: Library for configuring and customizing font access
+
+Package: fortune
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2600
+Size: 817700
+SHA256: 710a7ac0f1e8ecb21243e1a42e4eee05846edb933ca120f2a94f1920969cf5a5
+Filename: pool/aarch64/fortune_1.2-2_aarch64.deb
+Depends:
+Homepage: https://www.fefe.de/fortune/
+Description: Revealer of fortunes
+
+Package: freetype
+Version: 2.14.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1704
+Size: 412340
+SHA256: 670d27d8f53ef2d887b67f8b82fa480f7132b65ac2264a39b3c5b4db637ee285
+Filename: pool/aarch64/freetype_2.14.3_aarch64.deb
+Depends: brotli, libbz2, libpng, zlib
+Homepage: https://www.freetype.org
+Description: Software font engine capable of producing high-quality output
+
+Package: fribidi
+Version: 1.0.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 444
+Size: 64408
+SHA256: a15369457781dbe0af15344d9d184f22ad5da4a7546f94c44c3614646d1f6904
+Filename: pool/aarch64/fribidi_1.0.16-1_aarch64.deb
+Depends: glib
+Homepage: https://github.com/fribidi/fribidi/
+Description: Implementation of the Unicode Bidirectional Algorithm
+
+Package: gdbm
+Version: 1.26-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584
+Size: 150284
+SHA256: c378de833aae3cf41f3028491ea11836479d9833ab653edc27d0c0e0e691d5c5
+Filename: pool/aarch64/gdbm_1.26-1_aarch64.deb
+Depends: readline
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Description: Library of database functions that use extensible hashing
+
+Package: gdk-pixbuf
+Version: 2.44.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 960
+Size: 153228
+SHA256: 213da5186fc4ccca336ee7debf150c01c8de72ecb9575950d58f55e535267795
+Filename: pool/aarch64/gdk-pixbuf_2.44.8_aarch64.deb
+Depends: glib, libpng, libtiff, libjpeg-turbo, zstd
+Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
+Description: Library for image loading and manipulation
+
+Package: giflib
+Version: 5.2.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Size: 18220
+SHA256: 4d30733db0778db1aa2a24fcc39bb97597795e96e85f0ba1ed166965ad1354dc
+Filename: pool/aarch64/giflib_5.2.2-2_aarch64.deb
+Depends:
+Homepage: https://giflib.sourceforge.net/
+Description: A library for reading and writing gif images
+
+Package: glib
+Version: 2.90.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20952
+Size: 2572036
+SHA256: fee438e69505cda78f29e6662afb04613947f56db3e8d1557f25a0a5c3ea7c9c
+Filename: pool/aarch64/glib_2.90.0_aarch64.deb
+Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib, python
+Homepage: https://developer.gnome.org/glib/
+Description: Library providing core building blocks for libraries and applications written in C
+
+Package: harfbuzz
+Version: 14.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5028
+Size: 846936
+SHA256: 7f39fffee18a0956f65d2d3b8e86a36204829cf44f09d36c27d5e5177f36d360
+Filename: pool/aarch64/harfbuzz_14.4.0_aarch64.deb
+Depends: freetype, glib, libcairo, libgraphite
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Description: OpenType text shaping engine
+
+Package: highway
+Version: 1.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6564
+Size: 682536
+SHA256: 71b8e0c231ab6b66827374543d55997a5cb02d8882f5d53e059ba78cd2511da1
+Filename: pool/aarch64/highway_1.4.0-1_aarch64.deb
+Depends: libc++
+Homepage: https://github.com/google/highway
+Description: Performance-portable, length-agnostic SIMD with runtime dispatch
+
+Package: htop
+Version: 3.5.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 444
+Size: 131016
+SHA256: 4b0acb92474fb41bb0d11903753515d3ec160773283950b4bbe7bdea4e74dd6e
+Filename: pool/aarch64/htop_3.5.3_aarch64.deb
+Depends: libandroid-support, ncurses
+Homepage: https://htop.dev/
+Description: Interactive process viewer for Linux
+
+Package: imlib2
+Version: 1.12.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1300
+Size: 512496
+SHA256: badf2dd1911ac9c759f673b1a3a53b6ceefe848ebd62a5280108f2415938ad3c
+Filename: pool/aarch64/imlib2_1.12.7_aarch64.deb
+Depends: freetype, gdk-pixbuf, giflib, glib, libandroid-shmem, libbz2, libcairo, libheif, libid3tag, libjpeg-turbo, libjxl, liblzma, libpng, librsvg, libtiff, libwebp, libx11, libxcb, libxext, openjpeg, zlib
+Homepage: https://sourceforge.net/projects/enlightenment/
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+
+Package: jq
+Version: 1.8.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 524
+Size: 184516
+SHA256: 0eac323797c5d70c35f5fb935c58b5fd7528937584a1aebbd5c5b965d1663afa
+Filename: pool/aarch64/jq_1.8.2_aarch64.deb
+Depends: oniguruma
+Homepage: https://jqlang.org/
+Description: Command-line JSON processor
+
+Package: libandroid-execinfo
+Version: 0.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Size: 14964
+SHA256: 725dd2c6da7fc96e860fcc928e18aa9fb0e85e0bdcaf4f8ce0f0654ca6860fc2
+Filename: pool/aarch64/libandroid-execinfo_0.1-3_aarch64.deb
+Depends:
+Homepage: https://man7.org/linux/man-pages/man3/backtrace.3.html
+Description: Shared library for the backtrace system function
+
+Package: libandroid-shmem
+Version: 0.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Size: 7216
+SHA256: 0da3a24d558b93c92bcf8d611e0826a99ff96e396b148e6cdf33b47c47c57ff6
+Filename: pool/aarch64/libandroid-shmem_0.7_aarch64.deb
+Depends:
+Homepage: https://github.com/termux/libandroid-shmem
+Description: System V shared memory emulation on Android using ashmem
+
+Package: libandroid-utimes
+Version: 0.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Size: 3120
+SHA256: c3d4c315d201225ac1bdd7e7a558c067f2b0f195b6eda73b493c1b49cd203e12
+Filename: pool/aarch64/libandroid-utimes_0.4_aarch64.deb
+Depends:
+Homepage: https://github.com/termux/libandroid-utimes
+Description: futimes, futimesat and lutimes from bionic
+
+Package: libaom
+Version: 3.15.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7352
+Size: 2078308
+SHA256: f284096506dbdeb160ac09d803948b8fb3ad26535361776535ec43d87f185841
+Filename: pool/aarch64/libaom_3.15.0_aarch64.deb
+Depends:
+Homepage: https://aomedia.org/
+Description: AV1 Video Codec Library
+
+Package: libcaca
+Version: 0.99.beta20-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1384
+Size: 249056
+SHA256: 1b02d089bb2aa918dcf7ff19fe3b7c119b07c5e532922897eb88b3ef934e0eeb
+Filename: pool/aarch64/libcaca_0.99.beta20-3_aarch64.deb
+Depends: imlib2, libc++, ncurses, zlib
+Homepage: http://caca.zoy.org/wiki/libcaca
+Description: Graphics library that outputs text instead of pixels
+
+Package: libcairo
+Version: 1.18.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1640
+Size: 485284
+SHA256: ea7a4341c6c3186fec785e1395bda26b4d99cddb0f73cffcbe8c38a8bc2fa68f
+Filename: pool/aarch64/libcairo_1.18.4-2_aarch64.deb
+Depends: fontconfig, freetype, glib, libandroid-shmem, libandroid-execinfo, liblzo, libpixman, libpng, libx11, libxcb, libxext, libxrender, zlib
+Homepage: https://cairographics.org
+Description: Cairo 2D vector graphics library
+
+Package: libcrypt
+Version: 0.2-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Size: 8880
+SHA256: 6c283eed576b98cc3568f99638156f8588f77d979579d03bef8683d6eb8601e1
+Filename: pool/aarch64/libcrypt_0.2-6_aarch64.deb
+Depends: openssl
+Homepage: http://michael.dipperstein.com/crypt/
+Description: A crypt(3) implementation
+
+Package: libdav1d
+Version: 1.5.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 840
+Size: 265960
+SHA256: 4c2ffdcbbb805727caaa2e91b56917830dbacf4245dd439cf2e1c0d61a541613
+Filename: pool/aarch64/libdav1d_1.5.4_aarch64.deb
+Depends:
+Homepage: https://code.videolan.org/videolan/dav1d/
+Description: AV1 cross-platform decoder focused on speed and correctness
+
+Package: libde265
+Version: 1.1.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 608
+Size: 193084
+SHA256: 19f377c5349ce4e12480a707391f42c10e71807382e41a6f687d8bde40814387
+Filename: pool/aarch64/libde265_1.1.2_aarch64.deb
+Depends: libc++
+Homepage: https://github.com/strukturag/libde265
+Description: H.265/HEVC video stream decoder library
+
+Package: libexpat
+Version: 2.8.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 408
+Size: 97284
+SHA256: 71934cf00b404627702034bd1308cb58353dd851d9a2d3ecd9205b4ae6a67a27
+Filename: pool/aarch64/libexpat_2.8.4_aarch64.deb
+Depends:
+Homepage: https://libexpat.github.io/
+Description: XML parsing C library
+
+Package: libgraphite
+Version: 1.3.15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 296
+Size: 82208
+SHA256: 15ac85737a35150cecb9e46ecb32567ae2a4fc28071cdf58fb95e1b77d7889d9
+Filename: pool/aarch64/libgraphite_1.3.15_aarch64.deb
+Depends: libc++
+Homepage: https://github.com/silnrsi/graphite
+Description: Font system for multiple languages
+
+Package: libheif
+Version: 1.23.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2432
+Size: 589320
+SHA256: 78c53ef6df843f01abc65d79ea6e4253965b64b918ca6d6b0ba10ce069b56c50
+Filename: pool/aarch64/libheif_1.23.4_aarch64.deb
+Depends: gdk-pixbuf, glib, libaom, libc++, libdav1d, libde265, librav1e, libx264, libx265
+Homepage: https://github.com/strukturag/libheif
+Description: HEIF (HEIC/AVIF) image encoding and decoding library
+
+Package: libicu
+Version: 78.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 43632
+Size: 10210396
+SHA256: f536403f65a08fe0df6e7304184e902d54def77d5c3bd5edfd9109d57601d276
+Filename: pool/aarch64/libicu_78.3_aarch64.deb
+Depends: libc++
+Homepage: http://site.icu-project.org/home
+Description: International Components for Unicode library
+
+Package: libid3tag
+Version: 0.16.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Size: 30556
+SHA256: 3e472561e6791800f674a6fb6781cc600f57144eba83ea5bc08985ce5fb6cb3a
+Filename: pool/aarch64/libid3tag_0.16.4-1_aarch64.deb
+Depends: zlib
+Homepage: http://www.underbit.com/products/mad/
+Description: MAD ID3 tag manipulation library
+
+Package: libjpeg-turbo
+Version: 3.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2304
+Size: 453600
+SHA256: e6339075bcde28b4902d5a51f4063164834abfd2fa115e881ae637a34585e54f
+Filename: pool/aarch64/libjpeg-turbo_3.2.0_aarch64.deb
+Depends:
+Homepage: https://libjpeg-turbo.virtualgl.org
+Description: Library for reading and writing JPEG image files
+
+Package: libjxl
+Version: 0.12.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4448
+Size: 977072
+SHA256: 5deef55b1940aef2bc2666fdb4bfcba66cfbf73c17a419f299ddabe312b2ce11
+Filename: pool/aarch64/libjxl_0.12.0-1_aarch64.deb
+Depends: brotli, giflib, glib, highway, libc++, libffi, libiconv, libjpeg-turbo, libpng, zlib
+Homepage: https://jpegxl.info/
+Description: JPEG XL image format reference implementation
+
+Package: liblzo
+Version: 2.10-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Size: 69560
+SHA256: b8a6d232d592dcd6529589c817927cca3254f3ab40a85fce873d997ace7d1ca2
+Filename: pool/aarch64/liblzo_2.10-5_aarch64.deb
+Depends:
+Homepage: http://www.oberhumer.com/opensource/lzo
+Description: Portable lossless data compression library
+
+Package: libpixman
+Version: 0.46.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 676
+Size: 157712
+SHA256: 364b8c82ff68f8513930e5d413459fb7c52eccc7ba75a97a8c5a38760eee8d33
+Filename: pool/aarch64/libpixman_0.46.4-1_aarch64.deb
+Depends:
+Homepage: https://www.pixman.org/
+Description: Low-level library for pixel manipulation
+
+Package: libpng
+Version: 1.6.58
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 524
+Size: 195716
+SHA256: e47937405c72734867513cf0c63d27f36400d462666b65dfada984667d7228c4
+Filename: pool/aarch64/libpng_1.6.58_aarch64.deb
+Depends: zlib
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Description: Official PNG reference library
+
+Package: librav1e
+Version: 0.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2320
+Size: 695340
+SHA256: ac7842a5896bdff1b4d4974d9c02e60f7d4a587b8618df691118a8591f8dbccf
+Filename: pool/aarch64/librav1e_0.8.1_aarch64.deb
+Depends:
+Homepage: https://github.com/xiph/rav1e/
+Description: An AV1 encoder library focused on speed and safety
+
+Package: librsvg
+Version: 2.63.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12348
+Size: 2134556
+SHA256: fbdccfc642f1459d2da124b9e0554e67794d4cb066bbd99d62b3b9b6db101edf
+Filename: pool/aarch64/librsvg_2.63.0_aarch64.deb
+Depends: fontconfig, freetype, gdk-pixbuf, glib, harfbuzz, libcairo, libdav1d, libpng, libxml2, pango
+Homepage: https://wiki.gnome.org/action/show/Projects/LibRsvg
+Description: Library to render SVG files using cairo
+
+Package: libsqlite
+Version: 3.53.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3208
+Size: 759764
+SHA256: 0e909ce0d50fe123305446cd22e0c5edf535d40344b9b065fbdcdee52f53198d
+Filename: pool/aarch64/libsqlite_3.53.4_aarch64.deb
+Depends: zlib
+Homepage: https://www.sqlite.org
+Description: Library implementing a self-contained and transactional SQL database engine
+
+Package: libtiff
+Version: 4.7.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6644
+Size: 869912
+SHA256: 998c583d65d7d42dcb177548a218545661f02385a51bb9f5c24f0da4fd046574
+Filename: pool/aarch64/libtiff_4.7.2_aarch64.deb
+Depends: libc++, libjpeg-turbo, liblzma, zlib, zstd
+Homepage: http://www.simplesystems.org/libtiff/
+Description: Support for the Tag Image File Format (TIFF) for storing image data
+
+Package: libuuid
+Version: 2.42.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Size: 15432
+SHA256: 3458abaa8794d15a9d7763928f00c78e512af06cb3965dd5d8f550ff82c0e27d
+Filename: pool/aarch64/libuuid_2.42.1-4_aarch64.deb
+Depends: libandroid-posix-semaphore
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Description: Library for handling universally unique identifiers
+
+Package: libwebp
+Version: 1.6.0-rc1-0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1260
+Size: 329496
+SHA256: 80fa46bec4faad0ccfd969df5acfd501d813ca9d112b5c49f3f91390e987f3a9
+Filename: pool/aarch64/libwebp_1.6.0-rc1-0_aarch64.deb
+Depends: giflib, libjpeg-turbo, libpng, libtiff, zlib
+Homepage: https://github.com/webmproject/libwebp
+Description: Library to encode and decode images in WebP format
+
+Package: libx11
+Version: 1.8.13-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13700
+Size: 1909956
+SHA256: a18c5cf3cfe2670bf1cb4243e3140a0b7639350a4175b5229c969402fdb12e9f
+Filename: pool/aarch64/libx11_1.8.13-1_aarch64.deb
+Depends: libandroid-support, libxcb, xorgproto
+Recommends: xorg-xauth
+Homepage: https://xorg.freedesktop.org/
+Description: X11 client-side library
+
+Package: libx264
+Version: 1:0.164.3191-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1260
+Size: 396540
+SHA256: fe98852cb06ce1c963a54284179d8cda42af2fa82afcac09f7d81e6de4d9bbc1
+Filename: pool/aarch64/libx264_1:0.164.3191-1_aarch64.deb
+Depends:
+Homepage: https://www.videolan.org/developers/x264.html
+Description: Library for encoding video streams into the H.264/MPEG-4 AVC format
+
+Package: libx265
+Version: 4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9420
+Size: 1599320
+SHA256: 8dbfd50ad2ceea5ffa2384f0f4cc16a87cbf56ac83b4861fa4f640d1beb352cd
+Filename: pool/aarch64/libx265_4.3_aarch64.deb
+Depends: libandroid-posix-semaphore, libc++
+Homepage: https://www.x265.org/
+Description: H.265/HEVC video stream encoder library
+
+Package: libxau
+Version: 1.0.12-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Size: 9120
+SHA256: 2d86bed61ce89dd8fdb55e565aede10155f2ce3adaccb61d5f1375aec3314083
+Filename: pool/aarch64/libxau_1.0.12-2_aarch64.deb
+Depends:
+Homepage: https://xorg.freedesktop.org/
+Description: X11 authorisation library
+
+Package: libxcb
+Version: 1.17.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12772
+Size: 913948
+SHA256: 191c3642b6a8c754bc75b69b94a81858ecb5f18766dc085aff55559b8087ad34
+Filename: pool/aarch64/libxcb_1.17.0-1_aarch64.deb
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Homepage: https://xcb.freedesktop.org/
+Description: X11 client-side library
+
+Package: libxdmcp
+Version: 1.1.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Size: 24460
+SHA256: caea0cf5c0028af0840774094b8900ef7afffd8f9bbd7b1abfbe66851f0d6077
+Filename: pool/aarch64/libxdmcp_1.1.5-2_aarch64.deb
+Depends:
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Display Manager Control Protocol library
+
+Package: libxext
+Version: 1.3.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 616
+Size: 98008
+SHA256: 6e98a24e0d1996d25f7db8d70ecae02cfe5fc146343428a065149003454c7fc9
+Filename: pool/aarch64/libxext_1.3.7_aarch64.deb
+Depends: libx11
+Homepage: https://xorg.freedesktop.org/
+Description: X11 miscellaneous extensions library
+
+Package: libxft
+Version: 2.3.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 496
+Size: 47968
+SHA256: 50e13e49e55dc0246a8b2ead0f84679bc674cd09ffc0e3e60e885f6886cbe2fd
+Filename: pool/aarch64/libxft_2.3.9-1_aarch64.deb
+Depends: fontconfig, freetype, libx11, libxrender
+Homepage: https://xorg.freedesktop.org/
+Description: FreeType-based font drawing library for X
+
+Package: libxml2
+Version: 2.15.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1652
+Size: 443208
+SHA256: cc518f2045db589a0dfc10b0d2c4a18234b80911c8e89ec60bf0eff7bb4db600
+Filename: pool/aarch64/libxml2_2.15.4_aarch64.deb
+Depends: libandroid-glob, libiconv, libicu, zlib
+Homepage: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
+Description: Library for parsing XML documents
+
+Package: libxrender
+Version: 0.9.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Size: 24572
+SHA256: 90b21a4bc266468d540cab654ea7c010dcdd949b60d7136e87dad6966cef5cc0
+Filename: pool/aarch64/libxrender_0.9.12-1_aarch64.deb
+Depends: libx11
+Homepage: https://xorg.freedesktop.org/
+Description: X Rendering Extension client library
+
+Package: m4
+Version: 1.4.19-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 676
+Size: 191496
+SHA256: cf910b622fd720c3fe04d8bdbaee50c23bd3b6be9e7dcbced87b6010c695b9e4
+Filename: pool/aarch64/m4_1.4.19-5_aarch64.deb
+Depends:
+Homepage: https://www.gnu.org/software/m4/m4.html
+Description: Traditional Unix macro processor
+
+Package: ncurses-ui-libs
+Version: 6.6.20260307+really6.5.20250830
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Size: 32940
+SHA256: 7393f369009be189b3d4ec1f9b16ebd57621d6a1b22949ae07685573950d1f37
+Filename: pool/aarch64/ncurses-ui-libs_6.6.20260307+really6.5.20250830_aarch64.deb
+Depends: ncurses (= 6.6.20260307+really6.5.20250830)
+Homepage: https://invisible-island.net/ncurses/
+Description: Libraries for terminal user interfaces based on ncurses
+
+Package: neofetch
+Version: 7.1.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 396
+Size: 80164
+SHA256: 3e488f2d8a9bce6e0bf8028d3c0ec4d2817b6bbe94956b35567baa249e875e51
+Filename: pool/aarch64/neofetch_7.1.0-1_all.deb
+Depends: bash
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Simple system information script
+
+Package: oniguruma
+Version: 6.9.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 692
+Size: 136460
+SHA256: 93675574c560cd2f75b32f0bd2fdaa693419dd6ac0e6c71c26ce5fd928cae1c5
+Filename: pool/aarch64/oniguruma_6.9.10-1_aarch64.deb
+Depends:
+Homepage: https://github.com/kkos/oniguruma
+Description: Regular expressions library
+
+Package: openjpeg
+Version: 2.5.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 516
+Size: 149728
+SHA256: 93ad32c8caa0eb8943e2dd86b5c2eaf48a767709a3fa069a5b670d948656c7d8
+Filename: pool/aarch64/openjpeg_2.5.4_aarch64.deb
+Depends:
+Homepage: https://www.openjpeg.org/
+Description: JPEG 2000 image compression library
+
+Package: pango
+Version: 1.58.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2544
+Size: 364204
+SHA256: 3089e2de505f3aed90b60235af7723bdc6e90bd0dd954bcd8083848a5d9c19e9
+Filename: pool/aarch64/pango_1.58.2_aarch64.deb
+Depends: fontconfig, freetype, fribidi, glib, harfbuzz, libcairo, libx11, libxft, libxrender
+Homepage: https://www.gtk.org/docs/architecture/pango
+Description: Library for laying out and rendering text
+
+Package: perl
+Version: 5.42.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 69316
+Size: 15456796
+SHA256: 83f456c763688abf07d1525bdd5b8f0979770056de03eced9921fccbcc6c9300
+Filename: pool/aarch64/perl_5.42.2_aarch64.deb
+Depends: libandroid-utimes
+Homepage: https://www.perl.org/
+Description: Capable, feature-rich programming language
+
+Package: python
+Version: 3.14.6-1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 26164
+Size: 4816756
+SHA256: 3166e56c2b6c03fff41191fbb9d736302978e7c484702814d9f6dc99dd6006bd
+Filename: pool/aarch64/python_3.14.6-1_aarch64.deb
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib, zstd
+Recommends: python-ensurepip-wheels, python-pip
+Homepage: https://python.org/
+Description: Python 3 programming language intended to enable clear programs
+
+Package: sl
+Version: 5.05-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Size: 7240
+SHA256: cdab94369cb1e752a1d4bb1cd9437e42d2b3cfba6a2a35083258eadd375954e5
+Filename: pool/aarch64/sl_5.05-1_aarch64.deb
+Depends: ncurses
+Homepage: https://github.com/mtoyoda/sl
+Description: Tool curing your bad habit of mistyping
+
+Package: toilet
+Version: 0.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 876
+Size: 718924
+SHA256: 6624f575076cb18e2ad7256e8822d7835f71d759ed446f3fd67d89d63368c00a
+Filename: pool/aarch64/toilet_0.3-3_aarch64.deb
+Depends: libcaca
+Homepage: http://caca.zoy.org/wiki/toilet
+Description: FIGlet-compatible display of large colourful characters in text mode
+
+Package: tree
+Version: 2.3.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Size: 35988
+SHA256: 77bf9ef3035a18e3b6fb5d833b7d452733e7e0cff889bd2b71e5071c58a54867
+Filename: pool/aarch64/tree_2.3.2_aarch64.deb
+Depends: libandroid-support
+Homepage: http://mama.indstate.edu/users/ice/tree/
+Description: Recursive directory lister producing a depth indented listing of files
+
+Package: ttf-dejavu
+Version: 2.37-8
+Architecture: all
+Maintainer: Leonid Pliushch <leonid.pliushch@gmail.com>
+Installed-Size: 10108
+Size: 2468280
+SHA256: 3fa9352d528cb19aebcdd2de5d1fb0cb67b201be3ae264207fc1a277d2cfd6da
+Filename: pool/aarch64/ttf-dejavu_2.37-8_all.deb
+Depends:
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: wget
+Version: 1.25.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 792
+Size: 281248
+SHA256: f2631519e0b9add766a82b6fa9b294476bddb6cad9033c214c7575b5822a8bc4
+Filename: pool/aarch64/wget_1.25.0-1_aarch64.deb
+Depends: libandroid-support, libiconv, libidn2, libuuid, openssl, pcre2, zlib
+Homepage: https://www.gnu.org/software/wget/
+Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
+
+Package: xorg-util-macros
+Version: 1.20.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 144
+Size: 21948
+SHA256: 11765ad1a6f181e36f807464f7b4360593d847dce245202a393eb2ca156520d0
+Filename: pool/aarch64/xorg-util-macros_1.20.2_all.deb
+Depends:
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+
+Package: xorgproto
+Version: 2025.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2292
+Size: 249676
+SHA256: cd2a6405a79540f6cc0dbc991fffdbe68058f3223ed456ac66c07207048ef62f
+Filename: pool/aarch64/xorgproto_2025.1_all.deb
+Depends: xorg-util-macros
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org X11 Protocol headers
+
+Package: zip
+Version: 3.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 548
+Size: 142212
+SHA256: 0c121e7f633e439e3c46f6e661e7a3f488ef5ee446cdcff5aed4c9ddf25001bf
+Filename: pool/aarch64/zip_3.0-7_aarch64.deb
+Depends: libandroid-support, libbz2
+Homepage: https://sourceforge.net/projects/infozip/
+Description: Tools for working with zip files
+
 Package: aircrack-ng
 Version: 1.7
 Architecture: all
@@ -46,14 +889,6 @@ Installed-Size: 5017
 Depends:
 Description: cat clone with syntax highlighting and line numbers
 
-Package: bc
-Version: 1.07.1
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 256
-Depends:
-Description: Arbitrary precision calculator language
-
 Package: bun
 Version: 1.1.17
 Architecture: all
@@ -93,22 +928,6 @@ Maintainer: LinuxDictApp
 Installed-Size: 12288
 Depends:
 Description: Cross-platform build system generator
-
-Package: cmatrix
-Version: 2.0
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 368
-Depends: ncurses
-Description: Matrix-style falling code in the terminal
-
-Package: cowsay
-Version: 3.04
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 64
-Depends: bash
-Description: Configurable talking cow
 
 Package: curl
 Version: 8.7.1
@@ -190,14 +1009,6 @@ Installed-Size: 59392
 Depends: openssl, x264
 Description: Record, convert and stream audio/video
 
-Package: figlet
-Version: 25.6.3
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 1228
-Depends:
-Description: Make large letters out of ASCII art
-
 Package: fish
 Version: 3.7.1
 Architecture: all
@@ -205,14 +1016,6 @@ Maintainer: LinuxDictApp
 Installed-Size: 6144
 Depends: ncurses
 Description: User-friendly command-line shell
-
-Package: fortune
-Version: 0.2
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 1228
-Depends:
-Description: Print a random fortune cookie
 
 Package: fzf
 Version: 0.52.1
@@ -286,14 +1089,6 @@ Installed-Size: 12288
 Depends:
 Description: Advanced CPU/GPU password cracking utility
 
-Package: htop
-Version: 3.3.0
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 1433
-Depends: ncurses
-Description: Interactive process viewer with CPU/mem gauges
-
 Package: httpie
 Version: 3.2.2
 Architecture: all
@@ -357,14 +1152,6 @@ Maintainer: LinuxDictApp
 Installed-Size: 18432
 Depends: openssl
 Description: John the Ripper — password security auditing tool
-
-Package: jq
-Version: 1.7.1
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 1126
-Depends: oniguruma
-Description: Command-line JSON processor
 
 Package: kotlin
 Version: 2.0.0
@@ -494,14 +1281,6 @@ Installed-Size: 4915
 Depends: openssl
 Description: High-speed network authentication cracker
 
-Package: neofetch
-Version: 7.1.0
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 1536
-Depends: bash
-Description: Pretty system info script
-
 Package: neovim
 Version: 0.10.1
 Architecture: all
@@ -614,14 +1393,6 @@ Installed-Size: 144
 Depends: gpg, git
 Description: Simple password manager using GPG
 
-Package: perl
-Version: 5.38.2
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 14336
-Depends: gdbm
-Description: Practical Extraction and Report Language
-
 Package: php
 Version: 8.3.8
 Architecture: all
@@ -669,14 +1440,6 @@ Maintainer: LinuxDictApp
 Installed-Size: 456
 Depends:
 Description: Force any TCP connection through a proxy
-
-Package: python
-Version: 3.12.3
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 19456
-Depends: openssl, zlib, bzip2
-Description: High-level programming language
 
 Package: python-pip
 Version: 24.0
@@ -741,14 +1504,6 @@ Maintainer: LinuxDictApp
 Installed-Size: 880
 Depends: ncurses
 Description: Full-screen window manager for the terminal
-
-Package: sl
-Version: 5.02
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 12
-Depends: ncurses
-Description: Steam locomotive running through the terminal
 
 Package: socat
 Version: 1.8.0.0
@@ -878,22 +1633,6 @@ Installed-Size: 2150
 Depends: libevent, ncurses
 Description: Terminal multiplexer — split screens, persist sessions
 
-Package: toilet
-Version: 0.3
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 512
-Depends: ncurses
-Description: Display large colourful characters in terminal
-
-Package: tree
-Version: 2.1.1
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 96
-Depends:
-Description: List directories as a tree with colors
-
 Package: tsu
 Version: 2.8.2
 Architecture: all
@@ -934,14 +1673,6 @@ Installed-Size: 1638
 Depends: zlib, gc
 Description: Text-based web browser and pager
 
-Package: wget
-Version: 1.21.4
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 1843
-Depends: openssl
-Description: Retrieve files from the web
-
 Package: whois
 Version: 5.5.23
 Architecture: all
@@ -981,14 +1712,6 @@ Maintainer: LinuxDictApp
 Installed-Size: 8396
 Depends:
 Description: YAML/JSON/XML/CSV processor (like jq)
-
-Package: zip
-Version: 3.0
-Architecture: all
-Maintainer: LinuxDictApp
-Installed-Size: 760
-Depends:
-Description: Zip file compression tool
 
 Package: zoxide
 Version: 0.9.4

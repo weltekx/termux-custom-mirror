@@ -1,0 +1,14 @@
+cowsay
+figlet
+sl
+cmatrix
+lolcat
+fortune
+toilet
+tree
+bc
+jq
+zip
+wget
+htop
+neofetch
