@@ -1,40 +1,46 @@
 # termux-custom-mirror
 
-Custom APT repository for the LinuxDictApp practice terminal, hosted on
+Package metadata mirror for the LinuxDictApp practice terminal, served from
 GitHub Pages.
 
-When the workflow runs, it renders the package manifest (`catalog.json`)
-into an APT-compatible layout:
+The mirror is **metadata only** — it never contains `.deb` binaries. The app's
+`pkg` command is catalog-based: `pkg update` fetches the ABI-specific
+`Packages` index and `pkg install` adds the package to the app's installed
+set (no apt, no dpkg, no real archive download).
+
+## Layout
+
+GitHub Pages serves this repository directly from the `main` branch (root),
+so the generated index tree is committed into `main`:
 
     dists/stable/main/binary-aarch64/Packages
     dists/stable/main/binary-arm/Packages
     dists/stable/main/binary-x86_64/Packages
     dists/stable/main/binary-x86/Packages
 
-The app points its `sources.list` at
+The app fetches
 
-    deb https://<owner>.github.io/termux-custom-mirror/ stable main
+    https://<owner>.github.io/termux-custom-mirror/dists/stable/main/binary-<abi>/Packages
 
-and `pkg update` inside the terminal fetches the ABI-specific `Packages`
-index. If the mirror is unreachable the app falls back to its bundled
-offline catalog.
+over TLS. There is intentionally no offline fallback in the app: if the
+mirror is unreachable, `pkg update` reports a fetch error.
 
 ## Keeping the manifest in sync
 
-`catalog.json` mirrors the package list in the app's
-`PkgManager.kt` (`data/PkgManager.kt`). Regenerate it from the app sources:
+`catalog.json` mirrors the package list in the app's `PkgManager.kt`
+(`data/PkgManager.kt`). Regenerate it from the app sources:
 
     python3 scripts/sync_catalog.py <path-to-app>/app/src/main/java/com/weltekxdev/linuxdict/app/data/PkgManager.kt
 
-Commit the updated `catalog.json`; the workflow rebuilds the indexes and
-re-deploys automatically on push to `main`.
+Then commit the updated `catalog.json`. The workflow `generate-pages.yml`
+rebuilds `dists/` from it and commits the result back to `main`, where
+GitHub Pages picks it up automatically.
 
-## One-shot deploy
+## Deploying to a new owner
 
-From an authenticated `gh` CLI:
+From an authenticated `gh` CLI, so Pages serves from `main` (root):
 
-    ./deploy.sh <owner>
-
-This creates the public repository, enables Pages (Actions source), pushes,
-and triggers the workflow. The mirror is live at
-`https://<owner>.github.io/termux-custom-mirror/` once the workflow finishes.
+    gh repo create <owner>/termux-custom-mirror --public --source=. --remote=origin --push
+    gh api --method POST repos/<owner>/termux-custom-mirror/pages --input - <<'JSON'
+    {"source": {"branch": "main", "path": "/"}}
+    JSON

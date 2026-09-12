@@ -16,7 +16,7 @@ def parse(kt_path: str) -> list:
     with open(kt_path, encoding="utf-8") as fh:
         text = fh.read()
     start = text.index("object PkgManager")
-    end = text.index("private val byName", start)
+    end = text.index("// ── Custom APT mirror sync", start)
     body = text[start:end]
 
     pat = re.compile(
@@ -36,7 +36,13 @@ def parse(kt_path: str) -> list:
             "description": desc,
         })
     packages.sort(key=lambda p: p["name"])
-    return packages
+    seen = set()
+    unique = []
+    for p in packages:
+        if p["name"] not in seen:
+            seen.add(p["name"])
+            unique.append(p)
+    return unique
 
 
 def main() -> None:

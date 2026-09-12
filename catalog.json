@@ -517,15 +517,6 @@
       "description": "High-speed network authentication cracker"
     },
     {
-      "name": "ncrack",
-      "version": "0.7",
-      "size": "4.8 MB",
-      "depends": [
-        "openssl"
-      ],
-      "description": "High-speed network authentication cracker"
-    },
-    {
       "name": "neofetch",
       "version": "7.1.0",
       "size": "1.5 MB",

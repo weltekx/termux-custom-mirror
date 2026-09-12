@@ -1,4 +1,4 @@
-name: Generate APT mirror & deploy to GitHub Pages
+name: Generate & commit APT mirror index
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
+# GitHub Pages serves this repository directly from the main branch (root),
+# so the generated dists/ tree is committed back to main by this job.
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -24,17 +24,14 @@ jobs:
       - name: Generate Packages indexes
         run: python3 scripts/generate_index.py
 
-      - name: Stage static site
+      - name: Commit generated dists to main
         run: |
-          mkdir -p dist
-          cp -r dists dist/
-          cp README.md dist/
-          cp LICENSE dist/ 2>/dev/null || true
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dists
+          if git diff --cached --quiet; then
+            echo "dists unchanged — nothing to commit"
+          else
+            git commit -q -m "Reindex mirror from catalog.json"
+            git push
+          fi

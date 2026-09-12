@@ -1,0 +1,1016 @@
+Package: aircrack-ng
+Version: 1.7
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 9011
+Depends: openssl
+Description: WiFi network security auditing toolkit
+
+Package: android-tools
+Version: 35.0.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 8601
+Depends:
+Description: ADB and fastboot — Android Debug Bridge tools
+
+Package: apache2
+Version: 2.4.62
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 4915
+Depends: openssl, pcre
+Description: Apache HTTP Server
+
+Package: aria2
+Version: 2.34.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 5734
+Depends: zlib
+Description: Download utility with multi-connection support
+
+Package: ascii-art
+Version: 3.4.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2867
+Depends: python
+Description: Convert images to ASCII art
+
+Package: bat
+Version: 0.24.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 5017
+Depends:
+Description: cat clone with syntax highlighting and line numbers
+
+Package: bc
+Version: 1.07.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 256
+Depends:
+Description: Arbitrary precision calculator language
+
+Package: bun
+Version: 1.1.17
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 57344
+Depends:
+Description: Fast all-in-one JavaScript runtime
+
+Package: busybox
+Version: 1.36.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1843
+Depends:
+Description: Swiss army knife of embedded Linux
+
+Package: bzip2
+Version: 1.0.8
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 200
+Depends:
+Description: High-quality data compression program
+
+Package: clang
+Version: 18.1.6
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 184320
+Depends: llvm
+Description: C/C++ language frontend for LLVM
+
+Package: cmake
+Version: 3.29.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 12288
+Depends:
+Description: Cross-platform build system generator
+
+Package: cmatrix
+Version: 2.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 368
+Depends: ncurses
+Description: Matrix-style falling code in the terminal
+
+Package: cowsay
+Version: 3.04
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 64
+Depends: bash
+Description: Configurable talking cow
+
+Package: curl
+Version: 8.7.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 4710
+Depends: openssl, zlib
+Description: Transfer data with URLs — HTTP(S)/FTP client
+
+Package: deno
+Version: 1.44.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 90112
+Depends:
+Description: Secure JavaScript/TypeScript runtime
+
+Package: dns-utils
+Version: 9.18
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2457
+Depends:
+Description: DNS lookup tools: dig, nslookup, host
+
+Package: duf
+Version: 0.8.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2150
+Depends:
+Description: Better df — disk usage/free utility
+
+Package: dust
+Version: 1.0.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2457
+Depends:
+Description: More intuitive version of du
+
+Package: emacs
+Version: 29.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 96256
+Depends: ncurses
+Description: GNU Emacs — extensible text editor
+
+Package: exa
+Version: 0.10.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2867
+Depends:
+Description: Modern replacement for ls
+
+Package: fastfetch
+Version: 2.12.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 4915
+Depends:
+Description: Fast neofetch-like system information tool
+
+Package: fd
+Version: 9.0.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2662
+Depends:
+Description: Simple, fast alternative to find
+
+Package: ffmpeg
+Version: 6.1.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 59392
+Depends: openssl, x264
+Description: Record, convert and stream audio/video
+
+Package: figlet
+Version: 25.6.3
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1228
+Depends:
+Description: Make large letters out of ASCII art
+
+Package: fish
+Version: 3.7.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 6144
+Depends: ncurses
+Description: User-friendly command-line shell
+
+Package: fortune
+Version: 0.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1228
+Depends:
+Description: Print a random fortune cookie
+
+Package: fzf
+Version: 0.52.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2252
+Depends: bash
+Description: Command-line fuzzy finder
+
+Package: gcc
+Version: 13.3.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 88064
+Depends: binutils, mpfr
+Description: GNU C compiler
+
+Package: gdb
+Version: 14.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 11264
+Depends: ncurses, python
+Description: GNU debugger
+
+Package: gh
+Version: 2.52.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 14336
+Depends: git
+Description: GitHub CLI — interact with GitHub from terminal
+
+Package: git
+Version: 2.45.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 24576
+Depends: curl, openssl, zlib
+Description: Distributed version control system
+
+Package: golang
+Version: 1.22.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 95232
+Depends:
+Description: Open-source programming language by Google
+
+Package: gpg
+Version: 2.4.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 6553
+Depends: libgcrypt
+Description: GNU Privacy Guard — encryption and signing
+
+Package: gzip
+Version: 1.13
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 720
+Depends:
+Description: GNU compression utility
+
+Package: hashcat
+Version: 6.2.6
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 12288
+Depends:
+Description: Advanced CPU/GPU password cracking utility
+
+Package: htop
+Version: 3.3.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1433
+Depends: ncurses
+Description: Interactive process viewer with CPU/mem gauges
+
+Package: httpie
+Version: 3.2.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 3276
+Depends: python
+Description: User-friendly HTTP client
+
+Package: hydra
+Version: 9.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2252
+Depends: openssl
+Description: Fast network login password cracker
+
+Package: iftop
+Version: 1.0pre4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 520
+Depends: pcap, ncurses
+Description: Display bandwidth usage by host
+
+Package: imagemagick
+Version: 7.1.1.30
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 18432
+Depends: freetype, jpeg
+Description: Image manipulation toolkit
+
+Package: ipcalc
+Version: 1.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 96
+Depends:
+Description: Perform simple IP address calculations
+
+Package: iperf3
+Version: 3.16
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1126
+Depends:
+Description: Network bandwidth measurement tool
+
+Package: java
+Version: 17
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 49152
+Depends:
+Description: OpenJDK 17 — Java development kit
+
+Package: john
+Version: 1.9.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 18432
+Depends: openssl
+Description: John the Ripper — password security auditing tool
+
+Package: jq
+Version: 1.7.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1126
+Depends: oniguruma
+Description: Command-line JSON processor
+
+Package: kotlin
+Version: 2.0.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 45056
+Depends: java
+Description: Modern JVM/Android/multiplatform language
+
+Package: lazygit
+Version: 0.43.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 8806
+Depends:
+Description: Simple terminal UI for git commands
+
+Package: links2
+Version: 2.29
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 3584
+Depends: openssl, zlib
+Description: Text-based web browser
+
+Package: lldb
+Version: 18.1.6
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 28672
+Depends: clang
+Description: LLVM debugger
+
+Package: lolcat
+Version: 100.0.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 88
+Depends: ruby
+Description: Rainbow text in your terminal
+
+Package: lsd
+Version: 1.1.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 3276
+Depends:
+Description: LSDeluxe — next gen ls command
+
+Package: lua
+Version: 5.4.6
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 540
+Depends:
+Description: Lightweight, embeddable scripting language
+
+Package: lynx
+Version: 2.9.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 3686
+Depends: openssl, ncurses
+Description: Classic text-mode web browser
+
+Package: make
+Version: 4.4.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1228
+Depends:
+Description: GNU make — build tool
+
+Package: man
+Version: 2.13.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1126
+Depends:
+Description: Display manual pages
+
+Package: mc
+Version: 4.8.31
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 9625
+Depends: ncurses
+Description: Midnight Commander — visual file manager
+
+Package: metasploit
+Version: 6.4.19
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 286720
+Depends: ruby, postgresql
+Description: Penetration testing framework
+
+Package: micro
+Version: 2.0.14
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 5222
+Depends:
+Description: Modern and intuitive terminal text editor
+
+Package: mysql
+Version: 8.4.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 45056
+Depends: openssl, zlib
+Description: MySQL/MariaDB database client
+
+Package: nano
+Version: 7.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 640
+Depends: ncurses
+Description: Small, friendly terminal text editor
+
+Package: ncrack
+Version: 0.7
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 4915
+Depends: openssl
+Description: High-speed network authentication cracker
+
+Package: neofetch
+Version: 7.1.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1536
+Depends: bash
+Description: Pretty system info script
+
+Package: neovim
+Version: 0.10.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 8908
+Depends: lua, libuv
+Description: Hyperextensible Vim-based text editor
+
+Package: netcat
+Version: 1.10
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 96
+Depends:
+Description: Read and write data across network connections
+
+Package: nginx
+Version: 1.26.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1945
+Depends: openssl, pcre
+Description: High-performance HTTP server
+
+Package: nikto
+Version: 2.1.6
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2457
+Depends: perl
+Description: Web server scanner
+
+Package: ninja
+Version: 1.12.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 488
+Depends:
+Description: Small build system with a focus on speed
+
+Package: nload
+Version: 0.7.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 220
+Depends: ncurses
+Description: Console network bandwidth monitor
+
+Package: nmap
+Version: 7.94
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 12288
+Depends: openssl, pcap
+Description: Network discovery and security scanning
+
+Package: nnn
+Version: 4.9
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1024
+Depends: ncurses
+Description: Tiny, blazingly fast, feature-packed file manager
+
+Package: nodejs
+Version: 20.14.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 43008
+Depends: openssl, zlib
+Description: JavaScript runtime built on V8
+
+Package: nodejs-lts
+Version: 22.3.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 45056
+Depends: openssl, zlib
+Description: Node.js LTS release
+
+Package: openssh
+Version: 9.7p1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 8089
+Depends: openssl, zlib
+Description: ssh/scp/sftp client and server
+
+Package: openssl
+Version: 3.3.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 12288
+Depends:
+Description: TLS/SSL toolkit and certificate management
+
+Package: p7zip
+Version: 17.05
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 6963
+Depends:
+Description: 7-zip command-line tool
+
+Package: pass
+Version: 1.7.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 144
+Depends: gpg, git
+Description: Simple password manager using GPG
+
+Package: perl
+Version: 5.38.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 14336
+Depends: gdbm
+Description: Practical Extraction and Report Language
+
+Package: php
+Version: 8.3.8
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 26624
+Depends: openssl, zlib
+Description: Popular scripting language for the web
+
+Package: postgresql
+Version: 16.3
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 28672
+Depends: openssl, zlib
+Description: Powerful open source relational database
+
+Package: procs
+Version: 0.14.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 3686
+Depends:
+Description: Modern replacement for ps
+
+Package: proot
+Version: 5.4.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 680
+Depends:
+Description: Run programs in an isolated filesystem (chroot-like)
+
+Package: proot-distro
+Version: 4.6.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1228
+Depends: proot
+Description: Install full Linux distros in Termux (Ubuntu, Debian, Alpine)
+
+Package: proxychains
+Version: 4.14
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 456
+Depends:
+Description: Force any TCP connection through a proxy
+
+Package: python
+Version: 3.12.3
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 19456
+Depends: openssl, zlib, bzip2
+Description: High-level programming language
+
+Package: python-pip
+Version: 24.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 4300
+Depends: python
+Description: Installs Python packages from PyPI
+
+Package: ranger
+Version: 1.9.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2150
+Depends: python
+Description: Console file manager with vi key bindings
+
+Package: redis
+Version: 7.2.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 8294
+Depends: openssl
+Description: In-memory key/value datastore
+
+Package: ripgrep
+Version: 14.1.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 3481
+Depends:
+Description: Recursively search directories for a regex pattern
+
+Package: rsync
+Version: 3.3.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2457
+Depends: zlib
+Description: Fast, versatile file copying/sync tool
+
+Package: ruby
+Version: 3.3.3
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 12288
+Depends: openssl, zlib
+Description: Dynamic, object-oriented scripting language
+
+Package: rust
+Version: 1.78.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 215040
+Depends: clang
+Description: Systems programming language (safe, fast, concurrent)
+
+Package: screen
+Version: 4.9.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 880
+Depends: ncurses
+Description: Full-screen window manager for the terminal
+
+Package: sl
+Version: 5.02
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 12
+Depends: ncurses
+Description: Steam locomotive running through the terminal
+
+Package: socat
+Version: 1.8.0.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2150
+Depends:
+Description: Multipurpose relay for bidirectional data transfer
+
+Package: sqlite
+Version: 3.46.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2867
+Depends:
+Description: Lightweight SQL database engine CLI
+
+Package: sqlmap
+Version: 1.8.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 9830
+Depends: python
+Description: Automatic SQL injection and database takeover
+
+Package: sshfs
+Version: 3.7.3
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 520
+Depends: fuse, openssh
+Description: Mount remote directories over SSH
+
+Package: starship
+Version: 1.19.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 5939
+Depends:
+Description: Minimal, blazing-fast, customizable prompt
+
+Package: strace
+Version: 6.9
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2867
+Depends:
+Description: System call tracer for debugging
+
+Package: subversion
+Version: 1.14.3
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 12288
+Depends: openssl, zlib
+Description: Apache Subversion version control
+
+Package: swift
+Version: 5.10.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 245760
+Depends: clang
+Description: Apple Swift language compiler (aarch64 only)
+
+Package: tar
+Version: 1.35
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2048
+Depends:
+Description: Archive files and directories
+
+Package: taskwarrior
+Version: 3.0.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2560
+Depends: gnutls
+Description: Command-line TODO list manager
+
+Package: tcpdump
+Version: 4.99.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 3686
+Depends: pcap
+Description: Command-line packet analyzer
+
+Package: termux-api
+Version: 0.49.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2150
+Depends:
+Description: Termux API addon — access Android device features
+
+Package: termux-tools
+Version: 1.42.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 280
+Depends:
+Description: Termux essential tools and helper scripts
+
+Package: thefuck
+Version: 3.32
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1843
+Depends: python
+Description: Corrects your previous console command
+
+Package: tldr
+Version: 3.3.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 4505
+Depends: bash
+Description: Simplified community-driven man pages
+
+Package: tmux
+Version: 3.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2150
+Depends: libevent, ncurses
+Description: Terminal multiplexer — split screens, persist sessions
+
+Package: toilet
+Version: 0.3
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 512
+Depends: ncurses
+Description: Display large colourful characters in terminal
+
+Package: tree
+Version: 2.1.1
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 96
+Depends:
+Description: List directories as a tree with colors
+
+Package: tsu
+Version: 2.8.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 48
+Depends:
+Description: Root shell via su for Termux — requires rooted device
+
+Package: unzip
+Version: 6.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 480
+Depends:
+Description: Unzip file extraction tool
+
+Package: valgrind
+Version: 3.23.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 47104
+Depends:
+Description: Memory error and profiling tool
+
+Package: vim
+Version: 9.1.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 3276
+Depends: ncurses
+Description: Vi IMproved — highly configurable text editor
+
+Package: w3m
+Version: 0.5.3
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1638
+Depends: zlib, gc
+Description: Text-based web browser and pager
+
+Package: wget
+Version: 1.21.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1843
+Depends: openssl
+Description: Retrieve files from the web
+
+Package: whois
+Version: 5.5.23
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 288
+Depends:
+Description: Query WHOIS/NICNAME servers
+
+Package: wireshark-tiny
+Version: 4.2.5
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 18432
+Depends: pcap
+Description: Network protocol analyser (CLI/tshark only)
+
+Package: wtf
+Version: 0.43.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 12288
+Depends:
+Description: Personal information dashboard for the terminal
+
+Package: xz-utils
+Version: 5.6.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1433
+Depends:
+Description: XZ-format compression utilities
+
+Package: yq
+Version: 4.44.2
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 8396
+Depends:
+Description: YAML/JSON/XML/CSV processor (like jq)
+
+Package: zip
+Version: 3.0
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 760
+Depends:
+Description: Zip file compression tool
+
+Package: zoxide
+Version: 0.9.4
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 2150
+Depends:
+Description: Smarter cd command that learns your habits
+
+Package: zsh
+Version: 5.9
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 8396
+Depends: ncurses
+Description: Interactive login shell with powerful features
+
+Package: zstd
+Version: 1.5.6
+Architecture: all
+Maintainer: LinuxDictApp
+Installed-Size: 1638
+Depends:
+Description: Zstandard fast real-time compression algorithm
+
