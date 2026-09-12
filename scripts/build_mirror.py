@@ -103,7 +103,14 @@ def gpg_sign(gnupg_home, data_path, out_path):
     env = dict(os.environ, GNUPGHOME=gnupg_home)
     with open(data_path, "rb") as src, open(out_path, "wb") as dst:
         subprocess.run(
-            ["gpg", "--batch", "--armor", "--clearsign", "--digest-algo", "SHA512"],
+            [
+                "gpg", "--batch", "--armor", "--clearsign", "--digest-algo", "SHA512",
+                # Pin the signature timestamp so InRelease is byte-reproducible
+                # across local and CI builds (prevents the auto-commit loop).
+                # Must be >= this key's creation time (2026-09-12T18:00Z) —
+                # 2026-09-12T23:59:59Z.
+                "--faked-system-time", "1789257599",
+            ],
             stdin=src, stdout=dst, check=True, env=env,
         )
 
@@ -256,7 +263,7 @@ def main():
                 for pkg in sorted(catalog, key=lambda p: p["name"]):
                     out.write(metadata_stanza(pkg))
         gz_path = out_path + ".gz"
-        with open(out_path, "rb") as src, gzip.GzipFile(filename=gz_path, mode="wb") as dst:
+        with open(out_path, "rb") as src, gzip.GzipFile(filename=gz_path, mode="wb", mtime=0) as dst:
             dst.write(src.read())
         measure(out_path, gz_path, release_files, f"main/binary-{abi}")
         print(f"wrote {out_path}" + (f" (+{len(pool_meta)} real entries)" if real_arch else " (metadata-only)"))

@@ -9,37 +9,37 @@ Components: main
 Description: LinuxDictApp signed package mirror
 MD5Sum:
  f46b39f9205523e74ec39fdd5b039d6c          44130 main/binary-aarch64/Packages
- 39658c63ce401d2318f2ff20617de312          12079 main/binary-aarch64/Packages.gz
+ df616cd305816e562160cac9be6530eb          12079 main/binary-aarch64/Packages.gz
  245b3819b8d57a08ded7013e88852eb2          20335 main/binary-arm/Packages
- 7d3ed9e4bcd6f6933b1157ae4926f21e           4427 main/binary-arm/Packages.gz
+ 40e8c7f3f0f298fa1c3e898078aaa867           4427 main/binary-arm/Packages.gz
  245b3819b8d57a08ded7013e88852eb2          20335 main/binary-x86_64/Packages
- 7d3ed9e4bcd6f6933b1157ae4926f21e           4427 main/binary-x86_64/Packages.gz
+ 40e8c7f3f0f298fa1c3e898078aaa867           4427 main/binary-x86_64/Packages.gz
  245b3819b8d57a08ded7013e88852eb2          20335 main/binary-x86/Packages
- 7d3ed9e4bcd6f6933b1157ae4926f21e           4427 main/binary-x86/Packages.gz
+ 40e8c7f3f0f298fa1c3e898078aaa867           4427 main/binary-x86/Packages.gz
 SHA1:
  57544cb448819980a8ed51f9f6ff3bf77eec2958          44130 main/binary-aarch64/Packages
- 5c7e6ebc932c967ed7ede6af6d6f11e207c74b6d          12079 main/binary-aarch64/Packages.gz
+ aa00bd4a2c46d3a867feaa6b2efe1c9e32f1b013          12079 main/binary-aarch64/Packages.gz
  19da73c59becbadf700aeceb23fc02310ca4e935          20335 main/binary-arm/Packages
- 9cc9532e58db0068404464264d811801dbf284ab           4427 main/binary-arm/Packages.gz
+ bc3e8e0aeb0875c19289973b10c9321ffc2a9335           4427 main/binary-arm/Packages.gz
  19da73c59becbadf700aeceb23fc02310ca4e935          20335 main/binary-x86_64/Packages
- 9cc9532e58db0068404464264d811801dbf284ab           4427 main/binary-x86_64/Packages.gz
+ bc3e8e0aeb0875c19289973b10c9321ffc2a9335           4427 main/binary-x86_64/Packages.gz
  19da73c59becbadf700aeceb23fc02310ca4e935          20335 main/binary-x86/Packages
- 9cc9532e58db0068404464264d811801dbf284ab           4427 main/binary-x86/Packages.gz
+ bc3e8e0aeb0875c19289973b10c9321ffc2a9335           4427 main/binary-x86/Packages.gz
 SHA256:
  d98adbf82d6ce10add23a90dccbb60109a6272273a1a7d42b38a13d284072e9a          44130 main/binary-aarch64/Packages
- 01cca01b8e47e2a32b9c7632471748883cad11d2721e4400d1fe1a043e6f3ae7          12079 main/binary-aarch64/Packages.gz
+ f958aeb57603471e4385a9103581ae9b7768002c9c50fcbeed35cdc937bb9394          12079 main/binary-aarch64/Packages.gz
  4e1fcacd4497e6d8c45d6adbe5eef7522e6886d7c49df432904cfef59e9ba50b          20335 main/binary-arm/Packages
- 80043ff58fdabafff1e6e23c3ffd2fbd29d319a1510a1a0af2fae8a2e532cf52           4427 main/binary-arm/Packages.gz
+ af5e673b25ded66a67bb1f1edf640a028b0d049794fa19793a7fce2d5fc04ff9           4427 main/binary-arm/Packages.gz
  4e1fcacd4497e6d8c45d6adbe5eef7522e6886d7c49df432904cfef59e9ba50b          20335 main/binary-x86_64/Packages
- 80043ff58fdabafff1e6e23c3ffd2fbd29d319a1510a1a0af2fae8a2e532cf52           4427 main/binary-x86_64/Packages.gz
+ af5e673b25ded66a67bb1f1edf640a028b0d049794fa19793a7fce2d5fc04ff9           4427 main/binary-x86_64/Packages.gz
  4e1fcacd4497e6d8c45d6adbe5eef7522e6886d7c49df432904cfef59e9ba50b          20335 main/binary-x86/Packages
- 80043ff58fdabafff1e6e23c3ffd2fbd29d319a1510a1a0af2fae8a2e532cf52           4427 main/binary-x86/Packages.gz
+ af5e673b25ded66a67bb1f1edf640a028b0d049794fa19793a7fce2d5fc04ff9           4427 main/binary-x86/Packages.gz
 SHA512:
  09ea9b8de2133150c5d9a19db567baf40e3b8be6fbddc082a59e4af2176ea6f8fba3e08f301fea17de499b35365614a80f47e248749a2aa03c814af4801755ff          44130 main/binary-aarch64/Packages
- e2414350a2adbb4e4261555096d57ab589b114afe437cadd23284f6bcbda4587aa259da1247469d5cd321319830ce5020a351dcb535f74569ada1f87898af2c8          12079 main/binary-aarch64/Packages.gz
+ 04ef64daaf08c462f45548827639a53ee1ed0d16facbf3b7b115c91d064b5a9dccc2e5a7f0de8a302ef6544bd4729dd5a55dc69a218b12ab982c2e0cdff1557c          12079 main/binary-aarch64/Packages.gz
  01e4d982077ed84712b3b8a09f7c735492a32739120c3d7e10962af47edfb3a9f7dd30563b61c63c8c9535b68d9cad18c3c6c1318333dfdf1f71dd47ea932932          20335 main/binary-arm/Packages
- 950d3fd958358265c0cb27ff5647928a84e76f4db32412d1af888ac34ffe68f532a5fe5181b719b029231bcdcd1a010dccec122b34cbb47f83398bd0075e0d12           4427 main/binary-arm/Packages.gz
+ 177e3872e820a17c5c160cc5342c69209376ff189520f0921cfd36ad3ff7d9334023939939ea75526e35c89aeffa49e104400c7e4f746c9d8b30163e96dabc4b           4427 main/binary-arm/Packages.gz
  01e4d982077ed84712b3b8a09f7c735492a32739120c3d7e10962af47edfb3a9f7dd30563b61c63c8c9535b68d9cad18c3c6c1318333dfdf1f71dd47ea932932          20335 main/binary-x86_64/Packages
- 950d3fd958358265c0cb27ff5647928a84e76f4db32412d1af888ac34ffe68f532a5fe5181b719b029231bcdcd1a010dccec122b34cbb47f83398bd0075e0d12           4427 main/binary-x86_64/Packages.gz
+ 177e3872e820a17c5c160cc5342c69209376ff189520f0921cfd36ad3ff7d9334023939939ea75526e35c89aeffa49e104400c7e4f746c9d8b30163e96dabc4b           4427 main/binary-x86_64/Packages.gz
  01e4d982077ed84712b3b8a09f7c735492a32739120c3d7e10962af47edfb3a9f7dd30563b61c63c8c9535b68d9cad18c3c6c1318333dfdf1f71dd47ea932932          20335 main/binary-x86/Packages
- 950d3fd958358265c0cb27ff5647928a84e76f4db32412d1af888ac34ffe68f532a5fe5181b719b029231bcdcd1a010dccec122b34cbb47f83398bd0075e0d12           4427 main/binary-x86/Packages.gz
+ 177e3872e820a17c5c160cc5342c69209376ff189520f0921cfd36ad3ff7d9334023939939ea75526e35c89aeffa49e104400c7e4f746c9d8b30163e96dabc4b           4427 main/binary-x86/Packages.gz
